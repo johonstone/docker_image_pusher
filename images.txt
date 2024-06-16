@@ -3,7 +3,7 @@ redis
 httpd
 python
 nginx
-emby
+linuxserver/emby
 jellyfin
 calibre
 calibre-web
