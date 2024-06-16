@@ -13,7 +13,6 @@ busybox
 node
 mysql
 #mongodb
-ollama
 #tensorflow/tensorflow
 postgres:12-bullseye
 grafana/grafana
