@@ -4,7 +4,7 @@ httpd
 python
 nginx
 linuxserver/emby
-jellyfin
+jellyfin/jellyfin
 calibre
 calibre-web
 eclipse-mosquitto
