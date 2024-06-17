@@ -19,6 +19,7 @@ grafana/grafana
 mathworks/matlab
 nextcloud:stable-apache
 superng6/qbittorrent
+xiaoyaliu/alist:latest --platform=linux/amd64
 
 #支持私库
 
