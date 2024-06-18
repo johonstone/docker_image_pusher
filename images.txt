@@ -19,10 +19,12 @@ grafana/grafana
 mathworks/matlab
 nextcloud:stable-apache
 superng6/qbittorrent
-xiaoyaliu/alist:latest --platform=linux/amd64
+xiaoyaliu/alist:latest 
+
+--platform=linux/amd64
 
 #支持私库
 
 #支持指定架构
 
---platform=linux/amd64 xiaoyaliu/alist
+#--platform=linux/amd64 xiaoyaliu/alist
