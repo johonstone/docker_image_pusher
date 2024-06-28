@@ -10,7 +10,8 @@ linuxserver/calibre-web
 eclipse-mosquitto
 influxdb
 busybox
-nodered/node-red:4.0-debian --platform linux/arm/v7
+--platform=linux/arm/v7 nodered/node-red:4.0-debian 
+
 mysql
 #mongodb
 #tensorflow/tensorflow
