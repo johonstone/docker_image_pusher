@@ -11,6 +11,10 @@ eclipse-mosquitto
 influxdb
 busybox
 --platform=linux/arm/v7 nodered/node-red:4.0-debian 
+--platform=linux/arm/v7 grafana/grafana:9.5.20-ubuntu
+--platform=linux/arm/v6 eclipse-mosquitto:2.0-openssl
+--platform=linux/arm/v7 influxdb:1.8.10
+
 
 mysql
 #mongodb
