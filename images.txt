@@ -24,6 +24,7 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64 nodered/node-red:4.0-debian 
 --platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
 --platform=linux/arm64 influxdb:1.8.10
+--platform=linux/arm64 portainer/portainer-ce:2.20.3
 
 
 
