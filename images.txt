@@ -29,6 +29,7 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64 influxdb:2.7
 --platform=linux/arm64 linuxserver/ffmpeg:7.0.2
 --platform=linux/arm64 ciicprojeto/mjpeg:latest
+--platform=linux/arm64 lukas1818/mjpg-streamer:latest
 
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
 #--platform=linux/arm64 eclipse-mosquitto:2.0-openssl
