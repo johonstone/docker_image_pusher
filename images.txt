@@ -35,6 +35,8 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64 dachack/openvpn:latest
 --platform=linux/arm64 land007/openvpn:latest
 --platform=linux/arm64 dperson/openvpn-client:aarch64
+--platform=linux/arm64 nubacuk/docker-openvpn:aarch64
+--platform=linux/amd64 nubacuk/docker-openvpn:aarch64
 
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
 #--platform=linux/arm64 eclipse-mosquitto:2.0-openssl
