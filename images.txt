@@ -39,6 +39,8 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/amd64 nubacuk/docker-openvpn:x86_64
 --platform=linux/arm64 hwdsl2/ipsec-vpn-server:latest
 --platform=linux/arm64 linuxserver/rustdesk:1.3.1
+--platform=linux/arm64 rustdesk/rustdesk-server:latest
+
 
 
 
