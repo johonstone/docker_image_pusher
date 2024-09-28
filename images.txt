@@ -33,8 +33,8 @@ panuwitp/mosquitto-arm:latest
 #arm64平台
 --platform=linux/arm64 hwdsl2/ipsec-vpn-server:latest
 --platform=linux/arm64 linuxserver/rustdesk:1.3.1
---platform=linux/arm64 rustdesk/rustdesk-server:latest
---platform=linux/arm64 lejianwen/rustdesk-api:latest
+#--platform=linux/arm64 rustdesk/rustdesk-server:latest
+--platform=linux/arm64 rustdesk/rustdesk-server-s6:latest
 
 
 --platform=linux/arm64 linuxserver/ffmpeg:7.0.2
