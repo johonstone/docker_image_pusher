@@ -45,6 +45,7 @@ panuwitp/mosquitto-arm:latest
 
 
 
+
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
 #--platform=linux/arm64 eclipse-mosquitto:2.0-openssl
 --platform=linux/arm64/v8 eclipse-mosquitto:2.0.0
