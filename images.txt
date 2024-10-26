@@ -11,7 +11,7 @@ linuxserver/calibre-web
 eclipse-mosquitto
 influxdb
 busybox
-
+--platform=linux/amd64 nodered/node-red:4.0-debian 
 
 --platform=linux/arm/v7 nodered/node-red:4.0-debian 
 --platform=linux/arm/v7 grafana/grafana:9.5.20-ubuntu
