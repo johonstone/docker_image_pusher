@@ -39,6 +39,7 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64 rustdesk/rustdesk-server-s6:latest
 --platform=linux/arm64 zyclonite/zerotier:router-1.14.1
 --platform=linux/arm64/v8 mysql:lts
+--platform=linux/arm64 mongodb/mongodb-community-server:7.0.9-ubi9
 
 
 
