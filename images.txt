@@ -28,6 +28,9 @@ panuwitp/mosquitto-arm:latest
 
 --platform=linux/arm64 influxdb:1.8.10
 --platform=linux/amd64 influxdb:1.8.10
+--platform=linux/arm64/v8 mysql:lts
+--platform=linux/amd64 mysql:lts
+
 
 #--platform=linux/arm64 influxdb:2.7
 #--platform=linux/arm64 ciicprojeto/mjpeg:latest
