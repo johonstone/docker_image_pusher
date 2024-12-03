@@ -30,6 +30,8 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/amd64 influxdb:1.8.10
 --platform=linux/arm64/v8 mysql:lts
 --platform=linux/amd64 mysql:lts
+--platform=linux/arm64 mongodb/mongodb-community-server:6.0.11-ubi9
+
 
 
 #--platform=linux/arm64 influxdb:2.7
