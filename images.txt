@@ -49,18 +49,8 @@ busybox
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
 --platform=linux/arm64/v8 eclipse-mosquitto:2.0.0
 
-
-
 mysql
-#mongodb
-#tensorflow/tensorflow
 postgres:12-bullseye
-grafana/grafana
-mathworks/matlab
 nextcloud:stable-apache
 superng6/qbittorrent
 xiaoyaliu/alist:latest 
-
-#支持私库
-
-#支持指定架构
