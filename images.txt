@@ -8,9 +8,8 @@ linuxserver/emby
 jellyfin/jellyfin
 linuxserver/calibre
 linuxserver/calibre-web
-eclipse-mosquitto
-influxdb
 busybox
+
 --platform=linux/amd64 nodered/node-red:4.0-debian 
 
 --platform=linux/arm/v7 nodered/node-red:4.0-debian 
@@ -25,10 +24,9 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64 nodered/node-red:4.0-debian 
 --platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
 --platform=linux/arm64 grafana/grafana:main-ubuntu
-
 --platform=linux/arm64 influxdb:1.8.10
 --platform=linux/amd64 influxdb:1.8.10
---platform=linux/arm64/v8 mysql:lts
+
 --platform=linux/amd64 mysql:lts
 
 #--platform=linux/arm64 influxdb:2.7
@@ -44,11 +42,9 @@ panuwitp/mosquitto-arm:latest
 --platform=linux/arm64/v8 wollan/devbox:3.0.0
 
 --platform=linux/arm64/v8 mysql:lts
---platform=linux/arm64/v8 mongodb/mongodb-community-server:5.0.7-ubuntu2004
---platform=linux/arm64/v8 mongodb/mongodb-community-server:4.4-ubuntu2004
-
-
-
+#--platform=linux/arm64/v8 mongodb/mongodb-community-server:5.0.7-ubuntu2004
+#--platform=linux/arm64/v8 mongodb/mongodb-community-server:4.4-ubuntu2004
+--platform=linux/arm64/v8 pull busybox:stable-glibc
 
 
 --platform=linux/arm64 linuxserver/ffmpeg:7.0.2
