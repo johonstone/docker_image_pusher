@@ -48,6 +48,8 @@ panuwitp/mosquitto-arm:latest
 
 --platform=linux/arm64/v8 mysql:lts
 --platform=linux/arm64 mongodb/mongodb-community-server:7.0.9-ubi9
+--platform=linux/arm64/v8 mongodb/mongodb-community-server:5.0.7-ubuntu2004
+
 
 
 
