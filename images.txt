@@ -26,6 +26,7 @@ busybox
 --platform=linux/arm64 influxdb:1.8.10
 --platform=linux/amd64 influxdb:1.8.10
 
+
 --platform=linux/amd64 mysql:lts
 
 #--platform=linux/arm64 influxdb:2.7
@@ -38,6 +39,7 @@ busybox
 --platform=linux/arm64 zyclonite/zerotier:router-1.14.1
 --platform=linux/arm64 zerotier/zerotier:1.14.2
 --platform=linux/arm64/v8 wollan/devbox:3.0.0
+--platform=linux/arm64 linuxserver/homeassistant:2025.3.4
 
 --platform=linux/arm64/v8 mysql:lts
 #--platform=linux/arm64/v8 mongodb/mongodb-community-server:5.0.7-ubuntu2004
