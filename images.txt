@@ -9,7 +9,12 @@ jellyfin/jellyfin
 linuxserver/calibre
 linuxserver/calibre-web
 busybox
---platform=linux/amd64 nodered/node-red:4.0-debian 
+#x86平台
+--platform=linux/amd64 nodered/node-red:4.0-debian
+--platform=linux/amd64 grafana/grafana:main-ubuntu
+--platform=linux/amd64 nodered/node-red:4.0-debian
+--platform=linux/amd64 nodered/node-red:4.0-debian
+
 
 #armv7平台
 --platform=linux/arm/v7 nodered/node-red:4.0-debian 
