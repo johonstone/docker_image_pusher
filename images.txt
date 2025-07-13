@@ -12,8 +12,10 @@ busybox
 #x86平台
 --platform=linux/amd64 nodered/node-red:4.0-debian
 --platform=linux/amd64 grafana/grafana:main-ubuntu
---platform=linux/amd64 nodered/node-red:4.0-debian
---platform=linux/amd64 nodered/node-red:4.0-debian
+--platform=linux/amd64 influxdb:1.8.10
+--platform=linux/amd64 
+--platform=linux/amd64 
+--platform=linux/amd64 mysql:lts
 
 
 #armv7平台
@@ -30,15 +32,8 @@ busybox
 --platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
 --platform=linux/arm64 grafana/grafana:main-ubuntu
 --platform=linux/arm64 influxdb:1.8.10
---platform=linux/amd64 influxdb:1.8.10
-
-
---platform=linux/amd64 mysql:lts
-
 #--platform=linux/arm64 influxdb:2.7
 #--platform=linux/arm64 ciicprojeto/mjpeg:latest
-
-#arm64平台
 --platform=linux/arm64 hwdsl2/ipsec-vpn-server:latest
 --platform=linux/arm64 linuxserver/rustdesk:1.3.1
 --platform=linux/arm64 rustdesk/rustdesk-server-s6:latest
@@ -46,12 +41,10 @@ busybox
 --platform=linux/arm64 zerotier/zerotier:1.14.2
 --platform=linux/arm64/v8 wollan/devbox:3.0.0
 --platform=linux/arm64 linuxserver/homeassistant:2025.3.4
-
 --platform=linux/arm64/v8 mysql:lts
 #--platform=linux/arm64/v8 mongodb/mongodb-community-server:5.0.7-ubuntu2004
 #--platform=linux/arm64/v8 mongodb/mongodb-community-server:4.4-ubuntu2004
 --platform=linux/arm64/v8 busybox:stable-glibc
-
 --platform=linux/arm64 linuxserver/ffmpeg:7.0.2
 --platform=linux/arm64 lukas1818/mjpg-streamer:latest
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
@@ -60,5 +53,4 @@ busybox
 mysql
 postgres:12-bullseye
 nextcloud:stable-apache
-superng6/qbittorrent
 xiaoyaliu/alist:latest 
