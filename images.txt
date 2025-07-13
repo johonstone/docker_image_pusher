@@ -14,7 +14,7 @@ busybox
 --platform=linux/amd64 grafana/grafana:main-ubuntu
 --platform=linux/amd64 influxdb:1.8.10
 --platform=linux/amd64 eclipse-mosquitto:2.0
---platform=linux/amd64 
+--platform=linux/amd64 portainer/portainer-ce:2.31.3
 --platform=linux/amd64 mysql:lts
 
 
