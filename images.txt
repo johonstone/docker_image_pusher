@@ -1,18 +1,18 @@
 
-nginx
-redis
-httpd
-python
-nginx
-linuxserver/emby
+#nginx
+#redis
+#httpd
+#python
+#nginx
+#linuxserver/emby
 jellyfin/jellyfin
-linuxserver/calibre
-linuxserver/calibre-web
-busybox
+#linuxserver/calibre
+#linuxserver/calibre-web
+#busybox
 mysql
 postgres:12-bullseye
-nextcloud:stable-apache
-xiaoyaliu/alist:latest 
+#nextcloud:stable-apache
+#xiaoyaliu/alist:latest 
 
 #x86平台
 --platform=linux/amd64 nodered/node-red:4.0-debian
@@ -27,7 +27,7 @@ xiaoyaliu/alist:latest
 
 #armv7平台
 --platform=linux/arm/v7 nodered/node-red:4.0-debian 
---platform=linux/arm/v7 grafana/grafana:9.5.20-ubuntu
+#--platform=linux/arm/v7 grafana/grafana:9.5.20-ubuntu
 --platform=linux/arm/v7 influxdb:1.8.10
 #--platform=linux/arm/v7 chirpstack/chirpstack-network-server:3.16
 #--platform=linux/arm/v7 chirpstack/chirpstack-gateway-bridge:4.0
@@ -36,7 +36,7 @@ xiaoyaliu/alist:latest
 
 #armv8平台
 --platform=linux/arm64 nodered/node-red:4.0-debian 
---platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
+#--platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
 --platform=linux/arm64 grafana/grafana:main-ubuntu
 --platform=linux/arm64 influxdb:1.8.10
 #--platform=linux/arm64 influxdb:2.7
