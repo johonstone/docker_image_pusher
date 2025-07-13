@@ -20,9 +20,9 @@ xiaoyaliu/alist:latest
 --platform=linux/amd64 influxdb:1.8.10
 --platform=linux/amd64 eclipse-mosquitto:2.0
 --platform=linux/amd64 portainer/portainer-ce:2.31.3
---platform=linux/amd64 
+--platform=linux/amd64 zerotier/zerotier:1.14.2
 
---platform=linux/amd64 mysql:lts
+
 
 
 #armv7平台
