@@ -37,6 +37,7 @@ postgres:12-bullseye
 #armv8平台
 --platform=linux/arm64 nodered/node-red:4.0-debian 
 --platform=linux/arm64 wantcat/trendradar:latest 
+--platform=linux/arm64 wantcat/trendradar-mcp:latest 
 --platform=linux/arm64 wantcat/trendradar:6.6
 
 #--platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
