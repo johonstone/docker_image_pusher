@@ -39,6 +39,7 @@ postgres:12-bullseye
 --platform=linux/arm64 wantcat/trendradar:latest 
 --platform=linux/arm64 wantcat/trendradar-mcp:latest 
 --platform=linux/arm64 wantcat/trendradar:6.6
+--platform=linux/arm64 nousresearch/hermes-agent:latest
 
 #--platform=linux/arm64 grafana/grafana:9.5.20-ubuntu
 
